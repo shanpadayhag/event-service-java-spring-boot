@@ -19,7 +19,7 @@ public class EventsController {
     private EventService eventService;
 
     @GetMapping
-    public ResponseEntity<List<EventListItemDTO>> getEventsByYearAndMonth(
+    public ResponseEntity<List<EventListItemDTO>> index(
             @RequestParam(required = false) Integer year,
             @RequestParam(required = false) Integer month) {
         List<EventListItemDTO> events = eventService.getEventsByYearAndMonth(year, month);
