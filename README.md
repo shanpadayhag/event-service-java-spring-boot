@@ -1,21 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/shanpadayhag/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -27,10 +11,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/shanpadayhag/event-service-java-spring-boot">
-    <img src="public/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/shanpadayhag/event-management-system-angular/refs/heads/master/public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Event Service</h3>
+  <h3 align="center">Eventify (Event Service)</h3>
 
   <p align="center">
     A simple event service API built with Spring Boot.
@@ -77,7 +61,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This project is a simple RESTful API for managing events. It is built using Spring Boot and provides endpoints for retrieving events based on a given year and month. This service is intended to be used as a backend for event management systems.
+This project is a simple RESTful API for managing events. It is built using Spring Boot and provides endpoints for retrieving events based on a given year and month. This service is intended to be used as a backend for Eventify.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +139,7 @@ The application provides a RESTful API for retrieving events.
 
 Here's a list of future plans for the project:
 
-- [ ] Implement authentication and authorization.
+- [ ] Implement authorization.
 - [ ] Add endpoints for creating, updating, and deleting events.
 - [ ] Improve error handling and response messages.
 - [ ] Add unit tests.
@@ -213,15 +197,15 @@ Here are some resources that were helpful during the development of this project
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/shanpadayhag/event-service-java-spring-boot?style=for-the-badge
-[contributors-url]: https://github.com/shanpadayhag/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/shanpadayhag/event-service-java-spring-boot/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/shanpadayhag/event-service-java-spring-boot?style=for-the-badge
-[forks-url]: https://github.com/shanpadayhag/Best-README-Template/network/members
+[forks-url]: https://github.com/shanpadayhag/event-service-java-spring-boot/network/members
 [stars-shield]: https://img.shields.io/github/stars/shanpadayhag/event-service-java-spring-boot?style=for-the-badge
-[stars-url]: https://github.com/shanpadayhag/Best-README-Template/stargazers
+[stars-url]: https://github.com/shanpadayhag/event-service-java-spring-boot/stargazers
 [issues-shield]: https://img.shields.io/github/issues/shanpadayhag/event-service-java-spring-boot?style=for-the-badge
-[issues-url]: https://github.com/shanpadayhag/Best-README-Template/issues
+[issues-url]: https://github.com/shanpadayhag/event-service-java-spring-boot/issues
 [license-shield]: https://img.shields.io/github/license/shanpadayhag/event-service-java-spring-boot?style=for-the-badge
-[license-url]: https://github.com/shanpadayhag/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/shanpadayhag/event-service-java-spring-boot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shanpadayhag
 [product-screenshot]: public/screenshot.png

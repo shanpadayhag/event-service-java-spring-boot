@@ -1,4 +1,4 @@
-package com.shanpadayhag.event_service.mappers;
+package com.shanpadayhag.event_service.mappers.events;
 
 import org.springframework.stereotype.Component;
 
@@ -6,7 +6,7 @@ import com.shanpadayhag.event_service.dtos.events.EventListItemDTO;
 import com.shanpadayhag.event_service.models.Event;
 
 @Component
-public class EventMapper {
+public class EventListItemMapper {
     public EventListItemDTO toEventListItemDTO(Event event) {
         return new EventListItemDTO(
                 event.getId(),

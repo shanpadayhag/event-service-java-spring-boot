@@ -1,7 +1,7 @@
 package com.shanpadayhag.event_service.services;
 
 import com.shanpadayhag.event_service.dtos.events.EventListItemDTO;
-import com.shanpadayhag.event_service.mappers.EventMapper;
+import com.shanpadayhag.event_service.mappers.events.EventListItemMapper;
 import com.shanpadayhag.event_service.models.Event;
 import com.shanpadayhag.event_service.repositories.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ public class EventService {
     @Autowired
     private EventRepository eventRepository;
     @Autowired
-    private EventMapper eventMapper;
+    private EventListItemMapper eventMapper;
 
     public List<EventListItemDTO> getEventsByYearAndMonth(Integer year, Integer month) {
         YearMonth yearMonth;
