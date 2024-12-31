@@ -29,7 +29,7 @@ public class UpdateEventController {
     }
 
     @PutMapping("/{eventID}")
-    public ResponseEntity<NewEventDTO> update(
+    public ResponseEntity<NewEventDTO> invokable(
             @PathVariable Long eventID,
             @Valid @RequestBody UpdateEventRequest request) {
 

@@ -25,7 +25,7 @@ public class ShowEventController {
     }
 
     @GetMapping("/{eventID}")
-    public ResponseEntity<EventListItemDTO> show(@PathVariable Long eventID) {
+    public ResponseEntity<EventListItemDTO> invokable(@PathVariable Long eventID) {
         Event event = eventRepository.findById(eventID)
                 .orElseThrow(() -> new NotFoundException("We're having trouble finding the event with ID: " + eventID
                         + ". Can you help us out by checking the ID or trying again? We're rooting for you to find what you need!"));
