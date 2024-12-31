@@ -9,6 +9,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import com.shanpadayhag.event_service.exceptions.core.NotFoundException;
+
 import java.time.format.DateTimeParseException;
 import java.util.HashMap;
 import java.util.Map;
@@ -44,6 +46,15 @@ public class GlobalExceptionHandler {
         body.put("errors", errors);
 
         return new ResponseEntity<>(body, HttpStatus.UNPROCESSABLE_ENTITY);
+    }
+
+    @ExceptionHandler(NotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleNotFoundException(NotFoundException exception) {
+        Map<String, Object> errorBody = new HashMap<>();
+        errorBody.put("error", "Aw, Sorry About That!");
+        errorBody.put("message", exception.getMessage());
+
+        return new ResponseEntity<>(errorBody, HttpStatus.NOT_FOUND);
     }
 
     private String extractReadableErrorMessage(HttpMessageNotReadableException exception) {
