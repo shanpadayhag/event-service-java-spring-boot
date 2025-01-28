@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping(path = "/api/v1/events")
+@RequestMapping(path = "/events")
 public class StoreEventController {
     @Autowired
     private StoreEventAction storeEventAction;

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-// @RequestMapping(path = "/api/v1/events")
+// @RequestMapping(path = "/events")
 public class GetEventsByYearAndMonthController {
     @GetMapping
     public void invokable() {

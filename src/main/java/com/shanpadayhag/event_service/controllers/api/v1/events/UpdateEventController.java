@@ -17,7 +17,7 @@ import com.shanpadayhag.event_service.requests.events.UpdateEventRequest;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/v1/events")
+@RequestMapping("/events")
 public class UpdateEventController {
 
     private final EventRepository eventRepository;

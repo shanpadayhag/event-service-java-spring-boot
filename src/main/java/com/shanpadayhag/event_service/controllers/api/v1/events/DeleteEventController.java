@@ -13,7 +13,7 @@ import com.shanpadayhag.event_service.models.Event;
 import com.shanpadayhag.event_service.repositories.EventRepository;
 
 @RestController
-@RequestMapping("/api/v1/events")
+@RequestMapping("/events")
 public class DeleteEventController {
 
     private final EventRepository eventRepository;

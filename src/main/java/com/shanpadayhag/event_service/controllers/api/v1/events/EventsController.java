@@ -13,7 +13,7 @@ import com.shanpadayhag.event_service.dtos.events.EventListItemDTO;
 import com.shanpadayhag.event_service.services.EventService;
 
 @RestController
-@RequestMapping(path = "/api/v1/events")
+@RequestMapping(path = "/events")
 public class EventsController {
     @Autowired
     private EventService eventService;
